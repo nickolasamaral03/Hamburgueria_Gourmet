@@ -37,6 +37,7 @@ const Marca = styled.div`
     @media(max-width: 768px) {
         h1{
             font-size: 1rem;
+            font-family: 'Times New Roman', Times, serif;
         }
 
         img{
