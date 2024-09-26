@@ -72,12 +72,9 @@ const Apresentacao = styled.div`
         margin-bottom: 20px;
         p{
             font-size: 0.95rem;
-            /* font-weight: 500; */
             font-family: 'Times New Roman', Times, serif;
         }
     }
-
-    
 `
 
 const ImagemTexto = styled.div`

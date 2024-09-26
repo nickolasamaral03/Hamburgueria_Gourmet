@@ -40,7 +40,6 @@ const Balneario = () => {
     @media(max-width: 768px){
         max-width: 280px;
         max-height: 200px;
-        /* margin-bottom: 0px; */
     }
     `
 
@@ -65,7 +64,6 @@ const Balneario = () => {
         max-width: 300px;
         max-height: 180px;
         margin-top: 10px;
-        /* margin-bottom: 10px; */
         p{
             font-size: 0.9rem;
         }
@@ -83,7 +81,6 @@ const Balneario = () => {
     @media(max-width: 768px){
         width: 303px;
         max-height: 190px;
-        /* margin-top: 10px; */
         margin-bottom: 10px;
         p{
             font-size: 0.9rem;
@@ -101,7 +98,6 @@ const Balneario = () => {
     @media(max-width: 768px){
         width: 303px;
         height: 125px;
-        /* margin-top: 10px; */
         margin-bottom: 10px;
         p{
             font-size: 0.9rem;
@@ -109,7 +105,6 @@ const Balneario = () => {
     }
     `
     return(
-        // Ambiente e experiência: Localização: Avaliações e feedbacks de clientes: Promoções ou eventos:
         <> 
         <Title>Hamburgueria Gourmet: Balneário</Title>
         <All>

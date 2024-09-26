@@ -2,9 +2,6 @@ import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 const Locais = () => {
-    
-    // Quando o usuário clicar em uma unidade na lista ou no mapa, exiba uma seção com detalhes adicionais, como fotos, descrição da unidade, promoções exclusivas daquela unidade, etc.
-    // Imagens já estão salvas aqui
 
     const Tudo = styled.div`
     max-width: 600px;
@@ -52,6 +49,3 @@ const Locais = () => {
 }
 
 export default Locais
-
-
-// VER QUESTÃO DA HOSPEDAGEM

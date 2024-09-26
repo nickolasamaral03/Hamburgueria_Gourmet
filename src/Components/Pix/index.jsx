@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import Qrcode from '../../imagens/qCode.jpg'
 import hamburguer from '../../imagens/hamburguer-de-queijo.png'
-// import fundo from '../../imagens/new_yotk_double.jpg'
 
 const TodaArea = styled.div`
 margin: auto;
@@ -15,14 +14,14 @@ box-shadow: 1px 0 3px #dabf7a;
 
 @media(max-width: 768px){
     width: 300px;
-  h3{
-    font-size: 0.9rem;
-  }
+    h3{
+        font-size: 0.9rem;
+    }
 }
 
-h3{
-    color: #ddddddcc
-}
+    h3{
+        color: #ddddddcc
+    }
 `
 const BurgerG = styled.h3`
     font-size: 0.9rem;

@@ -83,7 +83,6 @@ const Floripa = () => {
     @media(max-width: 768px){
         width: 303px;
         max-height: 190px;
-        /* margin-top: 10px; */
         margin-bottom: 10px;
         p{
             font-size: 0.9rem;
@@ -101,7 +100,6 @@ const Floripa = () => {
     @media(max-width: 768px){
         width: 303px;
         height: 120px;
-        /* margin-top: 10px; */
         margin-bottom: 10px;
         p{
             font-size: 0.9rem;
@@ -109,7 +107,6 @@ const Floripa = () => {
     }
     `
     return(
-        // Ambiente e experiência: Localização: Avaliações e feedbacks de clientes: Promoções ou eventos:
         <> 
         <Title>Hamburgueria Gourmet: Floripa</Title>
         <All>

@@ -130,7 +130,7 @@ cursor: pointer;
         color: white;
     }
 `
-const Carrinho = ({cartItems, DeleteItem, Pix}) => {
+const Carrinho = ({cartItems, DeleteItem}) => {
 
 const [itemQuantity, setItemQuantity] = useState(cartItems.map(() => 1)) //Gera o número 1 para cada cartItems, através de um novo array [1]
 
@@ -152,8 +152,6 @@ const TotalPrice = () => {
         return total + (price * itemQuantity[index])
     }, 0)
 }
-
-
 
 // O método reduce() executa uma função reducer (fornecida por você) para cada elemento do array, resultando num único valor de retorno.
 // Acumulador (acc)
@@ -180,8 +178,6 @@ const TotalPrice = () => {
                         <Link to="/pixArea"><Pagamento>Pix</Pagamento></Link>
                 </FormaDePagamento>
         </div>
-
-        // Adicionar a parte lógica com a mudança dos valores dinamicamente
     )
 }
 

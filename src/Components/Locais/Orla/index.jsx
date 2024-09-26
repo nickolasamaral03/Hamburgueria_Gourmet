@@ -40,7 +40,6 @@ const Orla = () => {
     @media(max-width: 768px){
         max-width: 280px;
         max-height: 200px;
-        /* margin-bottom: 15px; */
     }
     `
 
@@ -82,7 +81,6 @@ const Orla = () => {
     @media(max-width: 768px){
         width: 303px;
         max-height: 190px;
-        /* margin-top: 10px; */
         margin-bottom: 10px;
         p{
             font-size: 0.9rem;
@@ -100,7 +98,6 @@ const Orla = () => {
     @media(max-width: 768px){
         width: 303px;
         height: 100px;
-        /* margin-top: 10px; */
         margin-bottom: 10px;
         p{
             font-size: 0.9rem;
@@ -108,7 +105,6 @@ const Orla = () => {
     }
     `
     return(
-        // Ambiente e experiência: Localização: Avaliações e feedbacks de clientes: Promoções ou eventos:
         <> 
         <Title>Hamburgueria Gourmet: Orla do Guaíba</Title>
         <All>

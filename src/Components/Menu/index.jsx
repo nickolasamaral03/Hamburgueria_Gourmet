@@ -21,16 +21,11 @@ const TodosElementos = styled.div`
     flex-direction: column;
     margin: auto;
     padding-bottom: 10px;
-    /* padding-top: 10px; */
     margin-top: -16px;
 
     @media(max-width: 768px){
         display: grid;
         margin-top: -30px;
-        /* flex-direction: row;
-        overflow-x: auto;
-        scroll-behavior: smooth; */
-        /* width: 100%; */
     }
 `
 
@@ -61,10 +56,6 @@ const OpcoesMenu = styled.div`
         transition: 500ms;
         }
     }
-
-    @media(max-width: 768px){
-        /* width: 250px; */
-    }
 `
 
 const SeparatingThree = styled.div`
@@ -85,8 +76,6 @@ const Image = styled.img`
     border-radius: 8%;
     margin-left: 75px;
     margin-top: 8px;
-
-    
 `
 
 const Title = styled.h3`
