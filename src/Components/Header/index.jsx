@@ -85,7 +85,7 @@ const Sociais = styled.div`
         margin-top: 0;
         p{
             font-size: 1rem;
-            margin: 0 5px 0 5px;
+            margin: 0 2px 0 2px;
         }
     }
 
